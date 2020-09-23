@@ -1,13 +1,13 @@
-# Oauth2-Errors [![Build Status](https://secure.travis-ci.org/ralucas/oauth2-errors.png?branch=master)](http://travis-ci.org/ralucas/oauth2-errors)
+# Oauth2-Errors [![Build Status](https://secure.travis-ci.org/interop-alliance/oauth2-errors.png?branch=master)](http://travis-ci.org/interop-alliance/oauth2-errors)
 
 ## Introduction
 Error classes and handler for Oauth 2.0 spec errors.  Was patterned after the well-known [http-errors](https://npmjs.com/http-errors) lib.
 
 ## Getting Started
-Install the module with: `npm install oauth2-errors`
+Install the module with: `npm install @interop/oauth2-errors`
 
 ```js
-const OauthErrors = require('oauth2-errors');
+const OauthErrors = require('@interop/oauth2-errors');
 ```
 
 ## Errors
@@ -60,7 +60,7 @@ const invalidRequestError = new OauthErrors.InvalidRequest({
 ## Examples
 
 ```js
-const OauthErrors = require('oauth2-errors');
+const OauthErrors = require('@interop/oauth2-errors');
 ...
 
 // Using the respond convenience fn
@@ -74,6 +74,7 @@ function authorize(req, res, next) {
 ```
 
 ## Release History
+* v2.0.0 - Expand `statusCode` of various errors beyond 400 - Sep 23, 2020
 * v1.0.0 - Initial Release - April 13, 2018
 * v1.0.1 - Update compilation - April 13, 2018
 * v1.0.2 - Improve tests - April 13, 2018

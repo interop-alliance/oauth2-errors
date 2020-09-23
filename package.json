@@ -1,5 +1,5 @@
 {
-  "name": "oauth2-errors",
+  "name": "@interop/oauth2-errors",
   "version": "1.0.3",
   "description": "Errors and handler for Oauth 2.0 spec errors",
   "main": "lib/index.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ralucas/oauth2-errors.git"
+    "url": "https://github.com/interop-alliance/oauth2-errors.git"
   },
   "devDependencies": {
     "@types/node": "9.6.5",
