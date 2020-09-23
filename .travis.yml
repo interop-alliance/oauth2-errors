@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-  - v9
-  - v8
-  - v6
-  - v4
+  - v14
+  - v12
+  - v10
